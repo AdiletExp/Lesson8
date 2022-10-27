@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
                 String text = etName.getText().toString();
                 intent.putExtra("Miku", text);
                 startActivity(intent);
-                finish();
+                //finish();
             }
         });
 
