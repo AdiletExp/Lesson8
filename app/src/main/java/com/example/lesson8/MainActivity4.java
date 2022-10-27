@@ -9,6 +9,9 @@ import android.view.Menu;
 public class MainActivity4 extends AppCompatActivity {
 
     @Override
+    public void setFinishOnTouchOutside(boolean finish) {
+        super.setFinishOnTouchOutside(finish);
+        
     protected void onCreate(Bundle sState) {
         super.onCreate(sState);
         setContentView(R.layout.activity_main2);
